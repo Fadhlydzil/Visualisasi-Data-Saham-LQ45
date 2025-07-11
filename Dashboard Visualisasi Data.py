@@ -11,7 +11,7 @@ st.title("📊 Dashboard Visualisasi Volume Saham LQ45")
 st.markdown("Menggunakan Pygwalker Untuk Visualisasi")
 
 # Load data
-df = pd.read_csv("cleaned_saham_data_v2.csv")
+df = pd.read_csv("cleaned_data_saham.csv")
 
 # Konversi pygwalker jadi HTML
 html = pyg.to_html(df, spec="Final_Visualisasi_PyGWalker.json")
